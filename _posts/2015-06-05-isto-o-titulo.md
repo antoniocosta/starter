@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Isto é o titulo
 layout: image
 category: 
@@ -7,5 +7,6 @@ category:
 tags: 
   - bananas
 ---
+
 
 Isto é o texto.
