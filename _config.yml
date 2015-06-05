@@ -12,6 +12,7 @@ prose:
         field:
           element: "multiselect"
           label: "Category"
+          placeholder: "Choose one or more"
           options:
             - name: "analfabrutos"
               value: "analfabrutos"
@@ -34,14 +35,14 @@ prose:
           element: "select"
           label: "Layout"
           options:
-            - name: 'Gallery'
-              value: 'gallery'
-            - name: 'Quote'
-              value: 'quote'
             - name: 'Image'
               value: 'image'
+            - name: 'Gallery'
+              value: 'gallery'
             - name: 'Video'
               value: 'video'
+            - name: 'Quote'
+              value: 'quote'
       - name: "title"
         field:
           element: "text"
@@ -50,7 +51,7 @@ prose:
       - name: "tags"
         field:
           element: "multiselect"
-          label: "Add Tags"
+          label: "Tags"
           placeholder: "Choose Tags"
           options:
             - name: "Apples"
