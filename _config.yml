@@ -14,8 +14,16 @@ prose:
           value: "blog"
       - name: "layout"
         field:
-          element: "hidden"
-          value: "blog"
+          element: "select"
+          options:
+            - name: 'Gallery'
+              value: 'gallery'
+            - name: 'Quote'
+              value: 'quote'
+            - name: 'Image'
+              value: 'image'
+            - name: 'Video'
+              value: 'video'
       - name: "title"
         field:
           element: "text"
