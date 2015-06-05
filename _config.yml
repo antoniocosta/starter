@@ -8,27 +8,31 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
       - name: "category"
         field:
           element: "multiselect"
           label: "Category"
           placeholder: "Choose one or more"
           options:
-            - name: "analfabrutos"
+            - name: "Analfabrutos"
               value: "analfabrutos"
-            - name: "construções tugas"
+            - name: "Construções tugas"
               value: "construções tugas"
-            - name: "crise, pulhítica"
+            - name: "Crise, pulhítica"
               value: "crise, pulhítica"
-            - name: "ópio do povo"
+            - name: "Ópio do povo"
               value: "ópio do povo"
-            - name: "pessoas, animais"
+            - name: "Pessoas, animais"
               value: "pessoas, animais"
-            - name: "imprensa, tv, pub"
+            - name: "Imprensa, TV, publicidade"
               value: "imprensa, tv, pub"
-            - name: "santa sinalização"
+            - name: "Santa sinalização"
               value: "santa sinalização"
-            - name: "sobre rodas"
+            - name: "Sobre rodas"
               value: "sobre rodas"
       - name: "layout"
         field:
